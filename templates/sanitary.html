@@ -1,0 +1,28 @@
+ {% extends "layout.html" %}
+  {% block body %}
+    <link href="{{url_for('static',filename='css/service.css')}}" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+
+    <div class="fullbox">
+    <h1 class="text1">Sanitary & Plumbing Works</h1>
+    <br><br>
+    <p class="para1">Every housing or business project comes with its own water treatment requirements. Water is an essential and valuable commodity and must be handled properly. We understand that and provide a complete bouquet of sanitary and plumbing services for all types of projects. From ensuring efficient water supply to making water harvesting possible, we do our best to empower a project to make the most of its water reservoir while caring for the environment.</p>
+    <div class="imgbox">
+         <img src = "{{url_for('static',filename='img/img5.jpg')}}" class="imgdata">
+       </div>
+       <h2 class="text2">Our services include:</h2>
+  </div>
+    <div class="Add">
+      <img src = "{{url_for('static',filename='img/icon20.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon21.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon23.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon24.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon25.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon26.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon27.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon28.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon29.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon30.png')}}" class="AddImg">
+    </div>
+
+    {% endblock %}

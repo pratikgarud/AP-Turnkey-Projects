@@ -1,0 +1,52 @@
+ {% extends "layout.html" %}
+  {% block body %}
+ <main id="main">
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Gallery</li>
+        </ol>
+        <h2>Gallery</h2>
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+
+    <link href="{{url_for('static',filename='css/gallery.css')}}" rel="stylesheet">
+    <div class="content clearfix">
+      <div class="cube-container">
+        <div class="photo-cube">
+
+          <img class="front"src="{{url_for('static',filename='img/img1.jpg')}}" alt="">
+          <img class="front"src="{{url_for('static',filename='img/img2.jpg')}}" alt="">
+          <img class="left" src="{{url_for('static',filename='img/img3.jpg')}}" alt="">
+          <img class="right" src="{{url_for('static',filename='img/img4.jpg')}}" alt="">
+
+        </div>
+      </div>  
+
+      <div class="cube-container">
+        <div class="photo-cube">
+
+          <img class="front" src="{{url_for('static',filename='img/img5.jpg')}}" alt="">
+          <img class="front" src="{{url_for('static',filename='img/img6.jpg')}}" alt="">
+          <img class="left" src="{{url_for('static',filename='img/img7.jpg')}}" alt="">
+          <img class="right" src="{{url_for('static',filename='img/img8.jpg')}}" alt="">
+
+        </div>
+      </div>  
+
+      <div class="cube-container">
+        <div class="photo-cube">
+
+          <img class="front" src="{{url_for('static',filename='img/img9.jpg')}}" alt="">
+          <img class="front" src="{{url_for('static',filename='img/img4.jpg')}}" alt="">
+          <img class="left" src="{{url_for('static',filename='img/img4.jpg')}}" alt="">
+          <img class="right" src="{{url_for('static',filename='img/img6.jpg')}}" alt="">
+
+        </div>
+      </div>  
+    </div>
+      </main><!-- End #main -->
+            {% endblock %}

@@ -1,0 +1,27 @@
+ {% extends "layout.html" %}
+  {% block body %}
+    <link href="{{url_for('static',filename='css/service.css')}}" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+
+    <div class="fullbox">
+    <h1 class="text1">Fire Fighting </h1>
+    <br><br>
+    <p class="para1">Safety from fire is one of the biggest concerns for any developer or promoter. Not only it poses a direct threat on hundreds of lives but can also damage the property beyond repairs. At Ap Turnkey, we understand that very well. That’s why we act as a one-stop-shop for all fire safety related services. With us, you can expect everything that is needed for complete safety of your project and to secure lives.</p>
+    <div class="imgbox">
+         <img src = "{{url_for('static',filename='img/fireman2.jpg')}}" class="imgdata">
+       </div>
+       <h2 class="text2">Our services include:</h2>
+  </div>
+    <div class="Add">
+      <img src = "{{url_for('static',filename='img/icon1.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon2.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon3.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon4.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon5.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon6.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon7.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon8.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon9.png')}}" class="AddImg">
+    </div>
+
+    {% endblock %}

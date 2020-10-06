@@ -1,0 +1,89 @@
+{% extends "layout.html" %}
+  {% block body %}
+ <main id="main">
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Sites</li>
+        </ol>
+        <h2>Sites</h2>
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container">
+
+        <!-- 1 -->
+        <div class="row">
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+              <div class="entry-img">
+                <img src="{{url_for('static',filename='img/sun.jpg')}}" alt="" class="img-fluid">
+              </div>
+              <a href="#"><h2 style="text-align: center;">Sun-n-Sand Shirdi Hotel</h2></a>
+            </article><!-- End blog entry -->
+          </div>
+
+          <!-- 2 -->
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="{{url_for('static',filename='img/varroc.jpg')}}" alt="" class="img-fluid">
+              </div>
+              <a href="#"><h2 style="text-align: center;">Varroc</h2></a>
+            </article><!-- End blog entry -->
+          </div>
+
+           <!-- 3 -->
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="{{url_for('static',filename='img/pune.jpg')}}" alt="" class="img-fluid">
+              </div>
+              <a href="#"><h2 style="text-align: center;">Hyatt Hotel Pune</h2></a>
+            </article><!-- End blog entry -->
+          </div>
+
+           <!-- 4 -->
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="{{url_for('static',filename='img/kam.jpg')}}" alt="" class="img-fluid">
+              </div>
+              <a href="#"><h2 style="text-align: center;">Kamalnayan Bajaj Hospital Aurnagabad</h2></a>
+            </article><!-- End blog entry -->
+          </div>
+
+
+           <!-- 5 -->
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="{{url_for('static',filename='img/he.jpg')}}" alt="" class="img-fluid">
+              </div>
+                <a href="#"><h2 style="text-align: center;">Hedgewar Hospital,Aurangabad</h2></a>
+            </article><!-- End blog entry -->
+          </div>
+
+           <!-- 5 -->
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="{{url_for('static',filename='img/cotton.jpg')}}" alt="" class="img-fluid">
+              </div>
+                <a href="#"><h2 style="text-align: center;">Cotton Greves Ltd.Aurnagabad</h2></a>
+            </article><!-- End blog entry -->
+          </div>
+    </div>
+    </section><!-- End Blog Section -->
+
+  </main><!-- End #main -->
+            {% endblock %}

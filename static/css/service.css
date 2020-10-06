@@ -1,0 +1,45 @@
+<style>
+  .fullbox{
+    max-width: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 13px;
+  }
+  .para1{
+  	text-align: left;
+  	margin-right: 500px;
+  	margin-left: 50px;
+  	font-family: 'Alegreya';font-size: 22px;
+
+  }
+  .imgbox{
+  	margin-top: -250px;
+  	margin-left: 870px;
+  }
+  .imgdata{
+  	width: 450px;
+  	height: 330px;
+  }
+  .text1{
+  	text-align: center;
+    font-family: 'Alegreya';font-size: 28px;
+}
+.text2{
+	margin-right: 20px;
+	margin-left: 80px; 
+	margin-top: -90px;
+	color: red;
+}
+.Add{
+    max-width:52.33%;
+    max-height: 52.33%;
+    margin-left: 15px;
+    }
+ .AddImg{
+ 	max-height: 150px;
+ 	max-width: 130px;
+ 	margin-left: 90px;
+ 	margin-top: 20px;
+ }
+</style>

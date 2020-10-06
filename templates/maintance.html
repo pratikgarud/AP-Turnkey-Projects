@@ -1,0 +1,28 @@
+ {% extends "layout.html" %}
+  {% block body %}
+    <link href="{{url_for('static',filename='css/service.css')}}" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+
+    <div class="fullbox">
+    <h1 class="text1">Annual Maintenance Contract For Fire System</h1>
+    <br><br>
+    <p class="para1">We offer to our client’s Annual maintenance contracts for a wide range of applications. These services undertaken by us are carried out by our well-trained and highly skilled technicians of the industries. Further, under our annual maintenance contract services, we scheduled inspection & scheduled maintenance of the Plan. Additionally, under annual maintenance contracts, we help in assisting in detection of the problems faced by the system at an early stage.</p>
+    <div class="imgbox">
+         <img src = "{{url_for('static',filename='img/maint.jpg')}}" class="imgdata">
+       </div>
+       <h2 class="text2">Our services include:</h2>
+  </div>
+    <div class="Add">
+      <img src = "{{url_for('static',filename='img/icon20.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon21.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon23.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon24.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon25.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon26.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon27.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon28.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon29.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon30.png')}}" class="AddImg">
+    </div>
+
+    {% endblock %}

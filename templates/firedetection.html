@@ -1,0 +1,28 @@
+ {% extends "layout.html" %}
+  {% block body %}
+    <link href="{{url_for('static',filename='css/service.css')}}" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+
+    <div class="fullbox">
+    <h1 class="text1">Fire Detection System</h1>
+    <br><br>
+    <p class="para1">We are provided number of devices working together to detect and warn people through visual and audio appliances when smoke, fire, carbon monoxide or other emergencies are present as well as Automatic Fire Alarm System and Smoke Detection System, Intruder Alarm System, Burglar Alarm System,
+    Thermal Detection System, Gas leak detection System.</p>
+    <div class="imgbox">
+         <img src = "{{url_for('static',filename='img/firedetect.jpg')}}" class="imgdata">
+       </div>
+       <h2 class="text2">Our services include:</h2>
+  </div>
+    <div class="Add">
+      <img src = "{{url_for('static',filename='img/icon40.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon10.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon11.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon12.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon13.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon14.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon15.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon18.png')}}" class="AddImg">
+      <img src = "{{url_for('static',filename='img/icon19.png')}}" class="AddImg">
+    </div>
+
+    {% endblock %}

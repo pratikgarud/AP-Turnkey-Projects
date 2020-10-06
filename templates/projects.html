@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+  {% block body %}
+ <main id="main">
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Projects</li>
+        </ol>
+        <h2>Projects</h2>
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container">
+
+        <!-- 1 -->
+        <div class="row">
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+              <div class="entry-img">
+                <img src="{{url_for('static',filename='img/house.jpg')}}" alt="" class="img-fluid">
+              </div>
+              <a href="houseprojects.html"><h2 style="text-align: center;">Housing Society</h2></a>
+            </article><!-- End blog entry -->
+          </div>
+
+          <!-- 2 -->
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="{{url_for('static',filename='img/hospital.jpg')}}" alt="" class="img-fluid">
+              </div>
+              <a href="hospitalprojects.html"><h2 style="text-align: center;">Hospital</h2></a>
+            </article><!-- End blog entry -->
+          </div>
+
+           <!-- 3 -->
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="{{url_for('static',filename='img/hotels.jpg')}}" alt="" class="img-fluid">
+              </div>
+              <a href="hotelsprojects.html"><h2 style="text-align: center;">Hotels</h2></a>
+            </article><!-- End blog entry -->
+          </div>
+
+           <!-- 4 -->
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="{{url_for('static',filename='img/factory.jpg')}}" alt="" class="img-fluid">
+              </div>
+              <a href="industriesprojects.html"><h2 style="text-align: center;">Factories</h2></a>
+            </article><!-- End blog entry -->
+          </div>
+
+
+           <!-- 5 -->
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="{{url_for('static',filename='img/malls.jpg')}}" alt="" class="img-fluid">
+              </div>
+                <a href="malls.html"><h2 style="text-align: center;">Malls</h2></a>
+            </article><!-- End blog entry -->
+          </div>
+    </div>
+    </section><!-- End Blog Section -->
+
+  </main><!-- End #main -->
+            {% endblock %}

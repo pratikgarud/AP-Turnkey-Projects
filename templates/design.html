@@ -1,0 +1,14 @@
+ {% extends "layout.html" %}
+  {% block body %}
+    <link href="{{url_for('static',filename='css/service.css')}}" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+
+    <div class="fullbox">
+    <h1 class="text1">Design & Engineering</h1>
+    <br><br>
+    <p class="para1">Neosys is the leading single source supplier of complete systems for external fore and internal fighting in the market. We provide complete packages comprising all services and equipment required for fire fighting and safety.Also we will provide a system performance guarantee based on our engineering. Commissioning and class approvals standard parts in our scope and also Government Approvals.
+</p>
+    <div class="imgbox">
+         <img src = "{{url_for('static',filename='img/design1.jpg')}}" class="imgdata">
+       </div>
+    {% endblock %}
